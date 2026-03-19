@@ -1,7 +1,7 @@
 {
   "functions": {
     "vaka_project/wsgi.py": {
-      "runtime": "python3.12"
+      "runtime": "@vercept/python@4.0.0"
     }
   }
 }
