@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "vaka_project/wsgi.py": {
+      "runtime": "python3.12"
+    }
+  }
+}

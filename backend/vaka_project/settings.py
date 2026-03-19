@@ -7,12 +7,9 @@ from datetime import timedelta
 import os
 from decouple import config
 from django.urls import path
-from . import views
+#from . import views
 
 
-urlpatterns = [
-    path('', views.user_list, name='user-list'),
-]
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
