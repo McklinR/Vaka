@@ -1,7 +1,14 @@
 {
-  "functions": {
-    "vaka_project/wsgi.py": {
-      "runtime": "@vercept/python@4.0.0"
+  "builds": [
+    {
+      "src": "vaka_project/wsgi.py",
+      "use": "@vercel/python"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "vaka_project/wsgi.py"
+    }
+  ]
 }
