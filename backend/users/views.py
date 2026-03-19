@@ -4,6 +4,10 @@ from rest_framework import generics, permissions, status
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework_simplejwt.views import TokenObtainPairView
+from django.http import HttpResponse
+
+def user_list(request):
+    return HttpResponse("Users will be here")
 
 from .models import CustomUser
 from .serializers import (
