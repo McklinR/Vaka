@@ -9,7 +9,7 @@ from decouple import config
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = config("SECRET_KEY", default="django-insecure-vaka-dev-secret-key-change-in-production")
+SECRET_KEY = config("SECRET_KEY", default="4_i^^^kpjpqh1!sl26n*un7)fa2y4l+m6=wq)v9w-4rdo+d3xq")
 
 DEBUG = config("DEBUG", default=True, cast=bool)
 
